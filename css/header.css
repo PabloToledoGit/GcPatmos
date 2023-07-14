@@ -6,7 +6,10 @@
 }
 
 .top {
-  padding: 0em 10em;
+  border-right: 12em solid transparent;
+  border-left: 12em solid transparent;
+  border-color: black;
+
 }
 
 .top__nav {
@@ -21,7 +24,8 @@
   align-items: center;
   text-align: center;
   gap: 0.6em;
-  font-family: var(--font-header);
+  font-size: 2.5em;
+  font-family: var(--font-padrao);
 }
 
 .top__nav__links {
@@ -34,12 +38,15 @@
   align-items: center;
   text-align: center;
   gap: 0.3em;
+  color: black;
   text-decoration: none;
-  font-family: var(--font-header);
+  font-size: 1.5em;
+  font-family: var(--font-padrao);
 }
 
 .top__nav__links__botao:hover{
 
+    color: black;
     text-shadow: 0 0 0.100em rgba(0, 0, 0, 0.5), 0 0 0.80em currentColor;
     
 }
