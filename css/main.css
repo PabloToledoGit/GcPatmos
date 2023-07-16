@@ -1,0 +1,35 @@
+.mid {
+  border-right: 12em solid transparent;
+  border-left: 12em solid transparent;
+}
+
+.mid__secao1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  margin-top: 3rem;
+}
+
+.imagempatmos {
+  width: 18rem;
+}
+
+.mid__secao1__div1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.mid__secao1__div1__titulo {
+  font-family: var(--font-titulo);
+  color: black;
+}
+
+.patmos {
+  color: white;
+}
+
+.mid__secao1__div1__paragrafo {
+  font-family: var(--font-titulo);
+  color: white;
+}

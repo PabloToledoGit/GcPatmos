@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
-:root{
-
-    --font-padrao: 'Jolly Lodger', cursive;
+:root {
+  --font-padrao: "Jolly Lodger", cursive;
+  --font-titulo: "Fira Code", monospace;
 }
 
-body{
-
-    background-color: #FFA40D;
+body {
+  background-color: #ffa40d;
 }

@@ -1,15 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
-:root {
-  --font-header: "Fira Code", monospace;
-  --color-purple:#C778DD;
-}
-
 .top {
   border-right: 12em solid transparent;
   border-left: 12em solid transparent;
-  border-color: black;
-
 }
 
 .top__nav {
@@ -26,39 +19,53 @@
   gap: 0.6em;
   font-size: 2.5em;
   font-family: var(--font-padrao);
+  color: black;
+  font-weight: 500;
 }
 
 .top__nav__links {
   display: flex;
-  gap: 3em;
+  gap: 3.5em;
 }
 
 .top__nav__links__botao {
   display: flex;
   align-items: center;
   text-align: center;
-  gap: 0.3em;
   color: black;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: var(--font-padrao);
 }
 
-.top__nav__links__botao:hover{
-
-    color: black;
-    text-shadow: 0 0 0.100em rgba(0, 0, 0, 0.5), 0 0 0.80em currentColor;
-    
+.top__nav__links__botao:hover {
+  color: white;
+  text-shadow: 0 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0.8em currentColor;
 }
 
 .top__nav__links__icon {
   width: 14px;
 }
 
-@media (max-width:900px){
-
-  .top{
-
+@media (max-width: 900px) {
+  .top {
     display: none;
+  }
+
+  .mid__secao1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .imagempatmos {
+    width: 5rem;
+  }
+
+  .mid__secao1__div1__titulo {
+    font-size: 1.4rem;
+  }
+
+  .mid__secao1__div1__paragrafo {
+    font-size: 1rem;
   }
 }
