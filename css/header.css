@@ -47,6 +47,12 @@
   width: 14px;
 }
 
+.cruzpretaicon{
+
+  width: 1rem;
+  
+}
+
 @media (max-width: 900px) {
   .top {
     display: none;
@@ -68,4 +74,5 @@
   .mid__secao1__div1__paragrafo {
     font-size: 1rem;
   }
+
 }
