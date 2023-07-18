@@ -9,3 +9,13 @@
 body {
   background-color: #ffa40d;
 }
+
+.menuhamburguer{
+
+  display: none;
+}
+
+.segundoparagrafo{
+
+  display: none;
+}
