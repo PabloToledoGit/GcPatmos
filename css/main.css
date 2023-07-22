@@ -43,14 +43,6 @@
 }
 
 .mid__secao2__div1__titulo{
-
-  display: flex;
-
-  color: white;
-  font-family: var(--font-titulo);
-}
-
-.mid__secao2__div1__titulo{
   display: flex;
   flex-direction: column;
   gap: 1em;
