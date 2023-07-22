@@ -9,7 +9,7 @@
   justify-content: center;
   gap: 7rem;
   margin-top: 3rem;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 .imagempatmos {
@@ -39,6 +39,7 @@
 
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .mid__secao2__div1__titulo{
@@ -48,5 +49,27 @@
   color: white;
   font-family: var(--font-titulo);
 }
+
+.mid__secao2__div1__titulo{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  font-family: var(--font-titulo);
+  border: 1px solid white;
+  padding: 1em;
+  font-size: 1.5rem;
+}
+
+.apocalipse{
+
+  color: black;
+  font-family: var(--font-titulo);
+
+}
+
+
 
 
