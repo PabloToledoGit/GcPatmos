@@ -64,10 +64,11 @@
 
 .membros__titulo{
 
-  font-family: var(--font-titulo);
+  font-family:var(--font-padrao) ;
   color: black;
   margin-top: 10rem;
   margin-bottom: 5rem;
+  font-size: 4rem;
 }
 
 .card {
