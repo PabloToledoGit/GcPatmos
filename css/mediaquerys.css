@@ -62,5 +62,32 @@
       width: 20rem;
     }
 
+    .card{
+      margin: 0;
+    }
+
+    .projetos{
+
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+
+    }
+    
+    .mid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border: none;
+      box-sizing: border-box;
+      
+    }
+
+    .mid__secao1__div1{
+      margin-left: 0.5rem;
+    }
 
   }
