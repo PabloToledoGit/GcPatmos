@@ -141,6 +141,59 @@
   margin-bottom: 3rem;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.escala-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.escala-table th, .escala-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.escala-table th {
+  background-color: #f2f2f2;
+}
+
+.data, .funcao, .responsavel {
+  background-color: #fff; /* Fundo branco para os dados */
+}
+
+.data {
+  width: 20%;
+}
+
+.funcao {
+  width: 40%;
+}
+
+.responsavel {
+  width: 40%;
+}
+
+.titulo__escala{
+
+  margin: 0;
+}
+
+.escala-table{
+
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
 
 
 
