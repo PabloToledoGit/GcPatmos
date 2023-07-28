@@ -42,10 +42,12 @@
   }
 
   .segundoparagrafo {
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    width: 21rem;
+   
   }
 
   .primeiroparagrafo {
@@ -57,9 +59,7 @@
     width: 20rem;
   }
 
-  .card {
-    margin: 0;
-  }
+
 
   .projetos {
     display: flex;
@@ -79,6 +79,9 @@
   }
 
   .mid__secao1__div1 {
-    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
